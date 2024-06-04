@@ -1,98 +1,137 @@
-# undb
-
-<img height="50px" src="./docs/logo.png" alt="undb" align="right" />
-
-🚀 Private first, unified, self-hosted no code database.
-
-<a href="https://docs.undb.xyz/">Documentation</a>
+<div class="Box-sc-g0xbh4-0 bJMeLZ js-snippet-clipboard-copy-unpositioned" data-hpc="true"><article class="markdown-body entry-content container-lg" itemprop="text"><div class="markdown-heading" dir="auto"><h1 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">联合国数据库</font></font></h1><a id="user-content-undb" class="anchor" aria-label="永久链接：undb" href="#undb"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer" href="/undb-xyz/undb/blob/develop/docs/logo.png"><img height="50px" src="/undb-xyz/undb/raw/develop/docs/logo.png" alt="联合国数据库" align="right" style="max-width: 100%;"></a></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">🚀 私有优先、统一、自托管无代码数据库。</font></font></p>
+<p dir="auto"><a href="https://docs.undb.xyz/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文档</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
 ·
-<a href="https://www.undb.xyz/">Website</a>
+</font></font><a href="https://www.undb.xyz/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">网站</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
 ·
-<a href="https://github.com/orgs/undb-xyz/projects/1/views/2?query=is%3Aopen+sort%3Aupdated-desc">Roadmap</a>
-
-![undb](https://github.com/undb-xyz/undb/assets/22788984/e3495c5f-84ff-4b89-b7ed-2ec25081a990)
-
-## 🚀 Quick Start
-
-- Checkout quick install / deployment [document](https://docs.undb.xyz/installation/1installation-with-docker/)
-
-- Checkout [development envionment setup](https://docs.undb.xyz/contribution/development/) to setup local development environment.
-
-- Open `undb` in [gitpod](https://gitpod.io/new/#https://github.com/undb-xyz/undb) to setup development envionment quickly.
-
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/new/#https://github.com/undb-xyz/undb)
-
-- Join our [discord](https://discord.gg/3rcNdU3y3U) to keep in touch.
-
-<p>
-  <a href="https://discord.gg/3rcNdU3y3U"><img alt="Discord" src="https://img.shields.io/badge/discord-chat-5865f2?logo=discord&logoColor=f5f5f5" /></a>
+</font></font><a href="https://github.com/orgs/undb-xyz/projects/1/views/2?query=is%3Aopen+sort%3Aupdated-desc"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">路线图</font></font></a></p>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer" href="https://private-user-images.githubusercontent.com/22788984/256090939-e3495c5f-84ff-4b89-b7ed-2ec25081a990.svg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTc1MDgyNDgsIm5iZiI6MTcxNzUwNzk0OCwicGF0aCI6Ii8yMjc4ODk4NC8yNTYwOTA5MzktZTM0OTVjNWYtODRmZi00Yjg5LWI3ZWQtMmVjMjUwODFhOTkwLnN2Zz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA2MDQlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNjA0VDEzMzIyOFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTljYzY2ODU0MTM1MzhiZTMwNjhhY2EzMDE3OTIyNTllZmVjNzk2OTY2MWFmMzJlMTgyZDA3OWZhYjU3MGZiZDUmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.6_11bltFWwDO9HMufua22uCGi1q1gpopX0bWeEFOCJA"><img src="https://private-user-images.githubusercontent.com/22788984/256090939-e3495c5f-84ff-4b89-b7ed-2ec25081a990.svg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTc1MDgyNDgsIm5iZiI6MTcxNzUwNzk0OCwicGF0aCI6Ii8yMjc4ODk4NC8yNTYwOTA5MzktZTM0OTVjNWYtODRmZi00Yjg5LWI3ZWQtMmVjMjUwODFhOTkwLnN2Zz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA2MDQlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNjA0VDEzMzIyOFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTljYzY2ODU0MTM1MzhiZTMwNjhhY2EzMDE3OTIyNTllZmVjNzk2OTY2MWFmMzJlMTgyZDA3OWZhYjU3MGZiZDUmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.6_11bltFWwDO9HMufua22uCGi1q1gpopX0bWeEFOCJA" alt="联合国数据库" style="max-width: 100%;"></a></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">🚀 快速入门</font></font></h2><a id="user-content--quick-start" class="anchor" aria-label="永久链接：🚀 快速入门" href="#-quick-start"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">查看快速安装/部署</font></font><a href="https://docs.undb.xyz/installation/1installation-with-docker/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文档</font></font></a></p>
+</li>
+<li>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">检查</font></font><a href="https://docs.undb.xyz/contribution/development/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">开发环境设置</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">来设置本地开发环境。</font></font></p>
+</li>
+<li>
+<p dir="auto"><font style="vertical-align: inherit;"></font><code>undb</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在</font></font><a href="https://gitpod.io/new/#https://github.com/undb-xyz/undb" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">gitpod</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">中打开</font><font style="vertical-align: inherit;">，快速设置开发环境。</font></font></p>
+</li>
+</ul>
+<p dir="auto"><a href="https://gitpod.io/new/#https://github.com/undb-xyz/undb" rel="nofollow"><img src="https://camo.githubusercontent.com/95fbab4ac41e62a9f66e6d1d78f8249c418b33f8c7739c4f9c593f953f5362de/68747470733a2f2f676974706f642e696f2f627574746f6e2f6f70656e2d696e2d676974706f642e737667" alt="在 Gitpod 中打开" data-canonical-src="https://gitpod.io/button/open-in-gitpod.svg" style="max-width: 100%;"></a></p>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">加入我们的</font></font><a href="https://discord.gg/3rcNdU3y3U" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">discord</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">以保持联系。</font></font></li>
+</ul>
+<p dir="auto">
+  <a href="https://discord.gg/3rcNdU3y3U" rel="nofollow"><img alt="不和谐" src="https://camo.githubusercontent.com/4de20bfe7081d33e31ef01bc2040e5a3adead90d3afbeaab8c3ba8c5f065ff23/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f646973636f72642d636861742d3538363566323f6c6f676f3d646973636f7264266c6f676f436f6c6f723d663566356635" data-canonical-src="https://img.shields.io/badge/discord-chat-5865f2?logo=discord&amp;logoColor=f5f5f5" style="max-width: 100%;"></a>
 </p>
-
-## ✅ Features
-
-- :closed_lock_with_key: Private first
-- :balloon: Light weight, requires just one file storage by default
-- :computer: Self hosted in seconds
-- :pencil: Customizable
-- 🔑 Power BI like Record Level Security
-- 🔧 Deploy with variant adapters
-- 🎮 Developer friendly. Provide openapi / webhooks / realtime subscriptions / sdk(soon) / erd preview and more
-- :sparkles: Multiple built-in field types and variants
-- :city_sunset: Different types of views, including grid, kanban, gantt, tree, calendar and more
-- 💡 Light / Dark theme
-- 🗑️ records trash / restore
-- 📜 Templates
-
-## 📚 Tech Stack
-
-- 🔥 **SvelteKit** - Simple and performant frontend framework.
-- ⚡ **Vite + SWC** - Fast compile ts code.
-- 🌊 **Tailwind** - Composable styles.
-- 🔧 **Nestjs** Organize backend logic.
-- ⚖️ **Domain Driven Design** Make code easy to maintain.
-
-## Screen Shot
-
-![Create table](./docs/create-new-table.png)
-
-![Create table](./docs/create-new-field.png)
-
-![Create new record](./docs/create-new-record.gif)
-
-![Create table](./docs/create-new-view.gif)
-
-#### generated open api
-
-<img width="2488" alt="image" src="https://github.com/undb-xyz/undb/assets/22788984/b80099d9-afe6-4b54-b248-c13a64057c57">
-
-#### erd
-
-<img width="2532" alt="image" src="https://github.com/undb-xyz/undb/assets/22788984/c3f0fce6-ea78-4c3c-9180-285e7f17c345">
-
-## Deploy
-
-### Deploy with docker
-
-```
-docker run -d --name undb -p 4000:4000 --platform linux/x86_64 -v ~/.undb/:/var/opt/.undb ghcr.io/undb-xyz/undb:latest
-```
-
-> And then you can visit http://localhost:4000 and get started
-
-### Deploy with Render.com
-
-<a href="https://render.com/deploy?repo=https://github.com/undb-xyz/undb">
-  <img src="https://render.com/images/deploy-to-render-button.svg" alt="Deploy to Render">
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">✅ 特点</font></font></h2><a id="user-content--features" class="anchor" aria-label="固定链接：✅ 功能" href="#-features"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">🔐 私人优先</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">🎈 重量轻，默认只需要一个文件存储</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">💻 几秒钟内即可自行托管</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">📝可定制</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">🔑 Power BI 类记录级别安全</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">🔧 使用变体适配器进行部署</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">🎮 开发者友好。提供 openapi / webhooks / 实时订阅 / sdk（即将推出）/ erd 预览等</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">✨ 多种内置字段类型和变体</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">🌆 不同类型的视图，包括网格、看板、甘特图、树、日历等</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">💡 浅色 / 深色主题</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">🗑️ 记录垃圾/恢复</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">📜 模板</font></font></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">📚 技术栈</font></font></h2><a id="user-content--tech-stack" class="anchor" aria-label="永久链接：📚 技术栈" href="#-tech-stack"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">🔥 </font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">SvelteKit</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - 简单且高性能的前端框架。</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">⚡ </font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Vite + SWC——</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">快速编译 ts 代码。</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">🌊 </font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Tailwind——</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可组合样式。</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">🔧 </font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Nestjs</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">组织后端逻辑。</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">⚖️</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">领域驱动设计</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使代码易于维护。</font></font></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">截屏</font></font></h2><a id="user-content-screen-shot" class="anchor" aria-label="永久链接：屏幕截图" href="#screen-shot"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer" href="/undb-xyz/undb/blob/develop/docs/create-new-table.png"><img src="/undb-xyz/undb/raw/develop/docs/create-new-table.png" alt="创建表" style="max-width: 100%;"></a></p>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer" href="/undb-xyz/undb/blob/develop/docs/create-new-field.png"><img src="/undb-xyz/undb/raw/develop/docs/create-new-field.png" alt="创建表" style="max-width: 100%;"></a></p>
+<p dir="auto"><animated-image data-catalyst=""><a target="_blank" rel="noopener noreferrer" href="/undb-xyz/undb/blob/develop/docs/create-new-record.gif" data-target="animated-image.originalLink"><img src="/undb-xyz/undb/raw/develop/docs/create-new-record.gif" alt="创建新纪录" style="max-width: 100%; display: inline-block;" data-target="animated-image.originalImage"></a>
+      <span class="AnimatedImagePlayer" data-target="animated-image.player" hidden="">
+        <a data-target="animated-image.replacedLink" class="AnimatedImagePlayer-images" href="https://github.com/undb-xyz/undb/blob/develop/docs/create-new-record.gif" target="_blank">
+          
+        <span data-target="animated-image.imageContainer">
+            <img data-target="animated-image.replacedImage" alt="创建新纪录" class="AnimatedImagePlayer-animatedImage" src="https://github.com/undb-xyz/undb/raw/develop/docs/create-new-record.gif" style="display: block; opacity: 1;">
+          <canvas class="AnimatedImagePlayer-stillImage" aria-hidden="true" width="814" height="431"></canvas></span></a>
+        <button data-target="animated-image.imageButton" class="AnimatedImagePlayer-images" tabindex="-1" aria-label="播放 创建新纪录" hidden=""></button>
+        <span class="AnimatedImagePlayer-controls" data-target="animated-image.controls" hidden="">
+          <button data-target="animated-image.playButton" class="AnimatedImagePlayer-button" aria-label="播放 创建新纪录">
+            <svg aria-hidden="true" focusable="false" class="octicon icon-play" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M4 13.5427V2.45734C4 1.82607 4.69692 1.4435 5.2295 1.78241L13.9394 7.32507C14.4334 7.63943 14.4334 8.36057 13.9394 8.67493L5.2295 14.2176C4.69692 14.5565 4 14.1739 4 13.5427Z">
+            </path></svg>
+            <svg aria-hidden="true" focusable="false" class="octicon icon-pause" width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+              <rect x="4" y="2" width="3" height="12" rx="1"></rect>
+              <rect x="9" y="2" width="3" height="12" rx="1"></rect>
+            </svg>
+          </button>
+          <a data-target="animated-image.openButton" aria-label="在新窗口中打开创建新记录" class="AnimatedImagePlayer-button" href="https://github.com/undb-xyz/undb/blob/develop/docs/create-new-record.gif" target="_blank">
+            <svg aria-hidden="true" class="octicon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+              <path fill-rule="evenodd" d="M10.604 1h4.146a.25.25 0 01.25.25v4.146a.25.25 0 01-.427.177L13.03 4.03 9.28 7.78a.75.75 0 01-1.06-1.06l3.75-3.75-1.543-1.543A.25.25 0 0110.604 1zM3.75 2A1.75 1.75 0 002 3.75v8.5c0 .966.784 1.75 1.75 1.75h8.5A1.75 1.75 0 0014 12.25v-3.5a.75.75 0 00-1.5 0v3.5a.25.25 0 01-.25.25h-8.5a.25.25 0 01-.25-.25v-8.5a.25.25 0 01.25-.25h3.5a.75.75 0 000-1.5h-3.5z"></path>
+            </svg>
+          </a>
+        </span>
+      </span></animated-image></p>
+<p dir="auto"><animated-image data-catalyst=""><a target="_blank" rel="noopener noreferrer" href="/undb-xyz/undb/blob/develop/docs/create-new-view.gif" data-target="animated-image.originalLink"><img src="/undb-xyz/undb/raw/develop/docs/create-new-view.gif" alt="创建表" style="max-width: 100%; display: inline-block;" data-target="animated-image.originalImage"></a>
+      <span class="AnimatedImagePlayer" data-target="animated-image.player" hidden="">
+        <a data-target="animated-image.replacedLink" class="AnimatedImagePlayer-images" href="https://github.com/undb-xyz/undb/blob/develop/docs/create-new-view.gif" target="_blank">
+          
+        <span data-target="animated-image.imageContainer">
+            <img data-target="animated-image.replacedImage" alt="创建表" class="AnimatedImagePlayer-animatedImage" src="https://github.com/undb-xyz/undb/raw/develop/docs/create-new-view.gif" style="display: block; opacity: 1;">
+          <canvas class="AnimatedImagePlayer-stillImage" aria-hidden="true" width="814" height="431"></canvas></span></a>
+        <button data-target="animated-image.imageButton" class="AnimatedImagePlayer-images" tabindex="-1" aria-label="玩创建表" hidden=""></button>
+        <span class="AnimatedImagePlayer-controls" data-target="animated-image.controls" hidden="">
+          <button data-target="animated-image.playButton" class="AnimatedImagePlayer-button" aria-label="玩创建表">
+            <svg aria-hidden="true" focusable="false" class="octicon icon-play" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M4 13.5427V2.45734C4 1.82607 4.69692 1.4435 5.2295 1.78241L13.9394 7.32507C14.4334 7.63943 14.4334 8.36057 13.9394 8.67493L5.2295 14.2176C4.69692 14.5565 4 14.1739 4 13.5427Z">
+            </path></svg>
+            <svg aria-hidden="true" focusable="false" class="octicon icon-pause" width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+              <rect x="4" y="2" width="3" height="12" rx="1"></rect>
+              <rect x="9" y="2" width="3" height="12" rx="1"></rect>
+            </svg>
+          </button>
+          <a data-target="animated-image.openButton" aria-label="在新窗口中打开创建表" class="AnimatedImagePlayer-button" href="https://github.com/undb-xyz/undb/blob/develop/docs/create-new-view.gif" target="_blank">
+            <svg aria-hidden="true" class="octicon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+              <path fill-rule="evenodd" d="M10.604 1h4.146a.25.25 0 01.25.25v4.146a.25.25 0 01-.427.177L13.03 4.03 9.28 7.78a.75.75 0 01-1.06-1.06l3.75-3.75-1.543-1.543A.25.25 0 0110.604 1zM3.75 2A1.75 1.75 0 002 3.75v8.5c0 .966.784 1.75 1.75 1.75h8.5A1.75 1.75 0 0014 12.25v-3.5a.75.75 0 00-1.5 0v3.5a.25.25 0 01-.25.25h-8.5a.25.25 0 01-.25-.25v-8.5a.25.25 0 01.25-.25h3.5a.75.75 0 000-1.5h-3.5z"></path>
+            </svg>
+          </a>
+        </span>
+      </span></animated-image></p>
+<div class="markdown-heading" dir="auto"><h4 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">生成开放 API</font></font></h4><a id="user-content-generated-open-api" class="anchor" aria-label="永久链接：生成开放 API" href="#generated-open-api"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<a target="_blank" rel="noopener noreferrer" href="https://private-user-images.githubusercontent.com/22788984/243708853-b80099d9-afe6-4b54-b248-c13a64057c57.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTc1MDgyNDgsIm5iZiI6MTcxNzUwNzk0OCwicGF0aCI6Ii8yMjc4ODk4NC8yNDM3MDg4NTMtYjgwMDk5ZDktYWZlNi00YjU0LWIyNDgtYzEzYTY0MDU3YzU3LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA2MDQlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNjA0VDEzMzIyOFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTc4MzgzOWZjMzMzYmIzMThhMmZiOTM5NzdjMWY1NGM4MjQ4ZjhiOGIzNjRmZTBkMmMxMThjYWYyMjcyNTgzNmUmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.po2soxNrkTGDqdKkIVRDCVnYocyr0xAYHdZhkezOnzQ"><img width="2000" alt="图像" src="https://private-user-images.githubusercontent.com/22788984/243708853-b80099d9-afe6-4b54-b248-c13a64057c57.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTc1MDgyNDgsIm5iZiI6MTcxNzUwNzk0OCwicGF0aCI6Ii8yMjc4ODk4NC8yNDM3MDg4NTMtYjgwMDk5ZDktYWZlNi00YjU0LWIyNDgtYzEzYTY0MDU3YzU3LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA2MDQlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNjA0VDEzMzIyOFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTc4MzgzOWZjMzMzYmIzMThhMmZiOTM5NzdjMWY1NGM4MjQ4ZjhiOGIzNjRmZTBkMmMxMThjYWYyMjcyNTgzNmUmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.po2soxNrkTGDqdKkIVRDCVnYocyr0xAYHdZhkezOnzQ" style="max-width: 100%;"></a>
+<div class="markdown-heading" dir="auto"><h4 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">埃德</font></font></h4><a id="user-content-erd" class="anchor" aria-label="永久链接：erd" href="#erd"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<a target="_blank" rel="noopener noreferrer" href="https://private-user-images.githubusercontent.com/22788984/250280213-c3f0fce6-ea78-4c3c-9180-285e7f17c345.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTc1MDgyNDgsIm5iZiI6MTcxNzUwNzk0OCwicGF0aCI6Ii8yMjc4ODk4NC8yNTAyODAyMTMtYzNmMGZjZTYtZWE3OC00YzNjLTkxODAtMjg1ZTdmMTdjMzQ1LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA2MDQlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNjA0VDEzMzIyOFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTcyODQ4MGY4MjAwYmU3OTNhNDk3MzcxZDI2NDBkOWM1OWU2Yjg5Zjc2MzQzYjFjYTNlZjk1NDUzYTBmYTk4NzImWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.nnJTKSuiKiUEjgq2lvpkQLq8sk6LnUWKkhyoSeuzV9Y"><img width="2000" alt="图像" src="https://private-user-images.githubusercontent.com/22788984/250280213-c3f0fce6-ea78-4c3c-9180-285e7f17c345.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTc1MDgyNDgsIm5iZiI6MTcxNzUwNzk0OCwicGF0aCI6Ii8yMjc4ODk4NC8yNTAyODAyMTMtYzNmMGZjZTYtZWE3OC00YzNjLTkxODAtMjg1ZTdmMTdjMzQ1LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA2MDQlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNjA0VDEzMzIyOFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTcyODQ4MGY4MjAwYmU3OTNhNDk3MzcxZDI2NDBkOWM1OWU2Yjg5Zjc2MzQzYjFjYTNlZjk1NDUzYTBmYTk4NzImWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.nnJTKSuiKiUEjgq2lvpkQLq8sk6LnUWKkhyoSeuzV9Y" style="max-width: 100%;"></a>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">部署</font></font></h2><a id="user-content-deploy" class="anchor" aria-label="永久链接：部署" href="#deploy"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用 docker 部署</font></font></h3><a id="user-content-deploy-with-docker" class="anchor" aria-label="永久链接：使用 docker 部署" href="#deploy-with-docker"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<div class="snippet-clipboard-content notranslate position-relative overflow-auto"><pre class="notranslate"><code>docker run -d --name undb -p 4000:4000 --platform linux/x86_64 -v ~/.undb/:/var/opt/.undb ghcr.io/undb-xyz/undb:latest
+</code></pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="docker run -d --name undb -p 4000:4000 --platform linux/x86_64 -v ~/.undb/:/var/opt/.undb ghcr.io/undb-xyz/undb:latest" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<blockquote>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">然后您可以访问</font></font><a href="http://localhost:4000" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://localhost:4000</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并开始</font></font></p>
+</blockquote>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用 Render.com 进行部署</font></font></h3><a id="user-content-deploy-with-rendercom" class="anchor" aria-label="永久链接：使用 Render.com 进行部署" href="#deploy-with-rendercom"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<a href="https://render.com/deploy?repo=https://github.com/undb-xyz/undb" rel="nofollow">
+  <img src="https://camo.githubusercontent.com/8bd9b408ceaa8efda215a42c9519114dec33c0f129e4d0d0b0a6eb670398be63/68747470733a2f2f72656e6465722e636f6d2f696d616765732f6465706c6f792d746f2d72656e6465722d627574746f6e2e737667" alt="部署到渲染" data-canonical-src="https://render.com/images/deploy-to-render-button.svg" style="max-width: 100%;">
 </a>
-
-> You'll need a render account to deploy your own undb instance
-
-### Deploy with Railway
-
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/template/tqKa_d?referralCode=pcgp5j)
-
-![Alt](https://repobeats.axiom.co/api/embed/4e19a26c5f110e58bbcce4bb6a79c144a481c3dd.svg 'Repobeats analytics image')
-
-## License
-
-undb is open-source under the GNU Affero General Public License Version 3 (AGPLv3). You can find it [here](./LICENSE).
+<blockquote>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">你需要一个渲染帐户来部署你自己的 undb 实例</font></font></p>
+</blockquote>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用 Railway 进行部署</font></font></h3><a id="user-content-deploy-with-railway" class="anchor" aria-label="永久链接：使用 Railway 进行部署" href="#deploy-with-railway"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><a href="https://railway.app/template/tqKa_d?referralCode=pcgp5j" rel="nofollow"><img src="https://camo.githubusercontent.com/d07713342bc583232f8752c33a6a24e5f367d73725183a63f2f5fdd7c00606a3/68747470733a2f2f7261696c7761792e6170702f627574746f6e2e737667" alt="在铁路上部署" data-canonical-src="https://railway.app/button.svg" style="max-width: 100%;"></a></p>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/458e07464d1e2a6208a3440b5345a4bb2cddd1ef46a3808edb6f2b1febbfd63f/68747470733a2f2f7265706f62656174732e6178696f6d2e636f2f6170692f656d6265642f346531396132366335663131306535386262636365346262366137396331343461343831633364642e737667"><img src="https://camo.githubusercontent.com/458e07464d1e2a6208a3440b5345a4bb2cddd1ef46a3808edb6f2b1febbfd63f/68747470733a2f2f7265706f62656174732e6178696f6d2e636f2f6170692f656d6265642f346531396132366335663131306535386262636365346262366137396331343461343831633364642e737667" alt="Alt" title="Repobeats 分析图像" data-canonical-src="https://repobeats.axiom.co/api/embed/4e19a26c5f110e58bbcce4bb6a79c144a481c3dd.svg" style="max-width: 100%;"></a></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">执照</font></font></h2><a id="user-content-license" class="anchor" aria-label="永久链接：许可证" href="#license"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">undb 是 GNU Affero 通用公共许可证版本 3 (AGPLv3) 下的开源软件。您可以</font></font><a href="/undb-xyz/undb/blob/develop/LICENSE"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在此处</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">找到它。</font></font></p>
+</article></div>
